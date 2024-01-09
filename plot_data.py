@@ -2,12 +2,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 import random
 data = np.load('images_malware.npz', allow_pickle=True)
-print(type(data))
 lst = data.files
 image_data = data['arr']
 fig, axes = plt.subplots(2, 4, figsize=(16, 6), label = "Malware Images")
 
-# Flatten the 2D array of axes to make indexing easier
 axes = axes.flatten()
 
 family_dict = { 1 :["Dialer", "Adialer.C", 122],
@@ -44,13 +42,5 @@ for i, index in enumerate(random_indices):
     axes[i].set_title(f"family : {family_dict[family+1][0]} \nname : {family_dict[family+1][1]}")
     axes[i].axis('off') 
 plt.show()
-"""
-x_coordinates = image_data[:, 0]
-y_coordinates = image_data[:, 1]
-
-# Create a scatter plot
-plt.scatter(x_coordinates, y_coordinates, s=1)  # Adjust 's' for point size
-plt.title('Scatter Plot of Image Points')
-plt.show()"""
 
 
