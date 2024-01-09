@@ -39,7 +39,7 @@ random_indices = random.sample(range(image_data.shape[0]), 8)
 for i, index in enumerate(random_indices):
     img1, family = image_data[index]
     axes[i].imshow(img1, cmap='gray')
-    axes[i].set_title(f"family : {family_dict[family+1][0]} \nname : {family_dict[family+1][1]}")
+    axes[i].set_title(f"Family : {family_dict[family+1][0]} \nName : {family_dict[family+1][1]}")
     axes[i].axis('off') 
 plt.show()
 
