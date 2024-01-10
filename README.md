@@ -1,4 +1,4 @@
-# Project Introduction: Malware Detection with CNNs
+# Hands-On Machine learning for Cybesecurity : Malware Detection with CNNs
 
 ## Team Members:
 - Hugo QUIN
