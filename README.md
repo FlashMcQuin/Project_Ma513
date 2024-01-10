@@ -14,20 +14,6 @@ In this IPython notebook, we will explore the application of Convolutional Neura
 
 Our primary goal is to showcase how CNNs, renowned for their effectiveness in image-related tasks, can be employed for malware detection. We will specifically focus on the 'images_malware.npz' dataset, which comprises images representing malware codes. To enhance the learning process, we plan to convert the malware codes into grayscale images.
 
-### Methodology:
-
-1. **Dataset Preprocessing:**
-   - Load the 'images_malware.npz' dataset.
-   - Convert malware codes into grayscale images.
-
-2. **CNN Model Construction:**
-   - Design a CNN architecture suitable for image classification.
-   - Train the model using the preprocessed dataset.
-
-3. **Malware Detection:**
-   - Apply the trained CNN model to detect malware in grayscale images.
-   - Evaluate the model's performance using appropriate metrics.
-
 ### Why Use Images for Malware Detection?
 
 Traditionally, malware detection has been reliant on signature-based methods or behavioral analysis. However, as malware evolves and becomes more sophisticated, these methods may fall short. Leveraging CNNs for malware detection brings several advantages:
@@ -41,5 +27,3 @@ Traditionally, malware detection has been reliant on signature-based methods or 
 ### Importance of Description and Analysis:
 
 Throughout this project, a considerable emphasis will be placed on providing detailed descriptions and thorough analysis of our solutions. Understanding the strengths, limitations, and performance of our approach is crucial for its real-world applicability and further improvement.
-
-Let's dive into the code and explore how CNNs can be harnessed to enhance the efficiency of malware detection.
